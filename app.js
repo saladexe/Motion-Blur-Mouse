@@ -1,0 +1,35 @@
+const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+let a = 0.5;
+window.addEventListener("mousemove", async function(e) {
+    document.getElementById("x").textContent = e.x;
+    document.getElementById("y").textContent = e.y;
+    this.document.getElementById("b1").style.left = `${e.x}px`;
+    this.document.getElementById("b1").style.top = `${e.y}px`;
+    await wait(a);
+    this.document.getElementById("b2").style.left = `${e.x}px`;
+    this.document.getElementById("b2").style.top = `${e.y}px`;
+    await wait(a);
+    this.document.getElementById("b3").style.left = `${e.x}px`;
+    this.document.getElementById("b3").style.top = `${e.y}px`;
+    await wait(a);
+    this.document.getElementById("b4").style.left = `${e.x}px`;
+    this.document.getElementById("b4").style.top = `${e.y}px`;
+    await wait(a);
+    this.document.getElementById("b5").style.left = `${e.x}px`;
+    this.document.getElementById("b5").style.top = `${e.y}px`;
+    await wait(a);
+    this.document.getElementById("b6").style.left = `${e.x}px`;
+    this.document.getElementById("b6").style.top = `${e.y}px`;
+    await wait(a);
+    this.document.getElementById("b7").style.left = `${e.x}px`;
+    this.document.getElementById("b7").style.top = `${e.y}px`;
+    await wait(a);
+    this.document.getElementById("b8").style.left = `${e.x}px`;
+    this.document.getElementById("b8").style.top = `${e.y}px`;
+    await wait(a);
+    this.document.getElementById("b9").style.left = `${e.x}px`;
+    this.document.getElementById("b9").style.top = `${e.y}px`;
+    await wait(a);
+    this.document.getElementById("b10").style.left = `${e.x}px`;
+    this.document.getElementById("b10").style.top = `${e.y}px`;
+})
